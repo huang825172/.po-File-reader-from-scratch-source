@@ -8,3 +8,4 @@ if __name__ == "__main__":
     result = reader.get_data()
     for block in result.get_blocks():
         block.print()
+        print()

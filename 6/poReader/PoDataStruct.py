@@ -5,9 +5,9 @@ class PoBlock:
         self.extra = []
 
     def print(self):
-        print(self.msgid)
-        print(self.msgstr)
-        print(self.extra)
+        print("Msgid:", self.msgid)
+        print("Msgstr:", self.msgstr)
+        print("Extra:", self.extra)
 
 
 class PoFile:

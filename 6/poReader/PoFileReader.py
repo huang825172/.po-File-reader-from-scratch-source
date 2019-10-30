@@ -40,8 +40,13 @@ class PoFileReader:
         try:
             idx = 0
             block_entries = []
+            block = PoBlock()
             while idx < len(lines):
                 line = lines[idx]
+                if line[0] == '#':
+                    block.extra.append(self._strip_rn(line))
+                    idx += 1
+                    continue
                 if line.find("msgid") == 0:
                     msgid = []
                     msgstr = []
@@ -62,7 +67,6 @@ class PoFileReader:
                 idx += 1
             if len(block_entries) > 1:
                 raise RuntimeError("Block have more than one entry.")
-            block = PoBlock()
             block.msgid = block_entries[0][0]
             block.msgstr = block_entries[0][1]
             return block
