@@ -1,5 +1,5 @@
-from poReader.PoFileReader import *
-from poReader.PoFileFilter import *
+from poReader.PoFileReader import PoFileReader
+from poReader.PoFileFilter import PoFileFilter
 
 infilePath = "../po/ultimate-member-zh_CN.po"
 

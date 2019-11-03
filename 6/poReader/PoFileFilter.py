@@ -1,18 +1,19 @@
-from PoDataStructs import *
+from . import PoDataStructs
+from . import PoBlockFilters
 
 
 class PoFileFilter:
     def __init__(self):
-        self._file = PoFileStruct()
-        self._filter = PoBlockFilter()
+        self._file = PoDataStructs.PoFileStruct()
+        self._filter = PoBlockFilters.PoBlockFilter()
 
     def process(self, poFile):
-        if isinstance(poFile, PoFile):
+        if isinstance(poFile, PoDataStructs.PoFile):
             for block in poFile.get_blocks():
-                new_block = PoTranslateBlock()
+                new_block = PoDataStructs.PoTranslateBlock()
                 new_block.extra = block.extra
                 for idx in range(len(block.msgid)):
-                    new_unit = PoTranslateUnit()
+                    new_unit = PoDataStructs.PoTranslateUnit()
                     if idx < len(block.msgstr):
                         new_unit.result = block.msgstr[idx]
                     self._filter.process(block.msgid[idx])

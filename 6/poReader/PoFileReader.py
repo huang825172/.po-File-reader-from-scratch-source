@@ -1,10 +1,11 @@
-from PoDataStructs import *
+#from PoDataStructs import *
+from . import PoDataStructs
 import re
 
 
 class PoFileReader:
     def __init__(self):
-        self._fileData = PoFile()
+        self._fileData = PoDataStructs.PoFile()
 
     def read(self, filename):
         try:
@@ -42,7 +43,7 @@ class PoFileReader:
         try:
             idx = 0
             block_entries = []
-            block = PoBlock()
+            block = PoDataStructs.PoBlock()
             while idx < len(lines):
                 line = lines[idx]
                 if line[0] == '#':

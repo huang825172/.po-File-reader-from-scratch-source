@@ -1,6 +1,3 @@
-from PoBlockFilters import *
-
-
 class PoBlock:
     def __init__(self):
         self.msgid = []
