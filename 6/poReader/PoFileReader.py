@@ -1,4 +1,4 @@
-from PoDataStruct import *
+from PoDataStructs import *
 import re
 
 
@@ -25,10 +25,12 @@ class PoFileReader:
         except Exception as e:
             print(e)
 
-    def _strip_rn(self, line_str):
+    @staticmethod
+    def _strip_rn(line_str):
         return line_str.replace('\n', '').replace('\r', '').strip()
 
-    def _strip_line(self, line_str):
+    @staticmethod
+    def _strip_line(line_str):
         pattern = re.compile('(?<=\")(.+?)(?=\")')
         result = pattern.search(line_str)
         if result is None:
