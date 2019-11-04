@@ -37,10 +37,10 @@ class PoUnitConnector:
         pointer = 0
         while idx < len(self._elem):
             if self._map[idx] == 0:
-                new_list.append(self._elem[idx] + " ")
+                new_list.append(self._elem[idx])
                 idx += 1
             else:
-                new_list.append(list[pointer] + " ")
+                new_list.append(list[pointer])
                 while idx < len(self._elem) and self._map[idx] == 1:
                     idx += 1
                 pointer += 1
