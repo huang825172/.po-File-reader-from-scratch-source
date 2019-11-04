@@ -32,7 +32,7 @@ class PoFileReader:
 
     @staticmethod
     def _strip_line(line_str):
-        pattern = re.compile('(?<=\")(.+?)(?=\")')
+        pattern = re.compile('(?<=\")(.+)(?=\")')
         result = pattern.search(line_str)
         if result is None:
             return ""

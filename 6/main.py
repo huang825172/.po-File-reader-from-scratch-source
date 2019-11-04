@@ -1,7 +1,9 @@
 from poReader.PoFileReader import PoFileReader
 from poReader.PoFileFilter import PoFileFilter
+from poTranslators import BaiduTranslator
 
 infilePath = "../po/ultimate-member-zh_CN.po"
+infilePath = "../po/wedevs-project-manager-zh_CN.po"
 
 if __name__ == "__main__":
     reader = PoFileReader()
@@ -14,4 +16,6 @@ if __name__ == "__main__":
         for u in b.get_units():
             print(u.segments)
             print(u.segments_map)
-            print()
+            # if len(u.segments)>0 and len(u.segments[0])>0:
+            #     print(BaiduTranslator.translate_auto(u.segments[0]))
+            # print()
