@@ -10,6 +10,7 @@ class PoBlockFilter():
         self._segments, self._segments_map = self._filte_html_entities(self._segments, self._segments_map)
         self._segments, self._segments_map = self._filte_escapes_1(self._segments, self._segments_map)
         self._segments, self._segments_map = self._filte_escapes_2(self._segments, self._segments_map)
+        self._segments, self._segments_map = self._optimizer(self._segments, self._segments_map)
 
     def get_segments(self):
         return self._segments
@@ -101,8 +102,8 @@ class PoBlockFilter():
                             if str[fidx] == ";":
                                 fpos = fidx + 1
                                 break
-                        new_segs.append(str[str_idx:fpos])
-                        new_segs_map.append(0)
+                        new_segs.append(chr(int(str[str_idx:fpos].replace("&#", '').replace(';', ''))))
+                        new_segs_map.append(1)
                         str_idx += fpos - str_idx
                     else:
                         seg += str[str_idx]
@@ -208,7 +209,7 @@ class PoBlockFilter():
                         fpos = str_idx
                         for fidx in range(str_idx + 1, len(str)):
                             if str[fidx] == '"':
-                                fpos = fidx+1
+                                fpos = fidx + 1
                                 break
                         new_segs.append(str[str_idx:fpos])
                         new_segs_map.append(0)
@@ -292,3 +293,16 @@ class PoBlockFilter():
                 new_segs.append(segs[idx])
                 new_segs_map.append(segs_map[idx])
         return new_segs, new_segs_map
+
+    def _optimizer(self, segs, segs_map):
+        new_segs_map = []
+        for idx in range(len(segs)):
+            seg = segs[idx].strip()
+            if\
+                seg == '.' or\
+                seg == '\\' or\
+                seg == '':
+                new_segs_map.append(0)
+            else:
+                new_segs_map.append(segs_map[idx])
+        return segs, new_segs_map
