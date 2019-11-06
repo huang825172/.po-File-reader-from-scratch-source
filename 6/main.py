@@ -5,9 +5,10 @@ from poIO.PoFileWriter import PoFileWriter
 from Translators import BaiduTranslator
 
 # infilePath = "../po/ultimate-member-zh_CN.po"
-infilePath = "../po/wedevs-project-manager-zh_CN.po"
+# infilePath = "../po/wedevs-project-manager-zh_CN.po"
 # infilePath = "../po/short_test.po"
-outfilePath = "../out/out.po"
+infilePath = "../po/较高版本.po"
+outfilePath = "../out/out1.po"
 
 if __name__ == "__main__":
     reader = PoFileReader()

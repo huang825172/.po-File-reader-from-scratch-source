@@ -1,0 +1,1734 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Project Manager Chinese\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cpm\n"
+"POT-Creation-Date: 2018-07-11 06:41:04+00:00\n"
+"PO-Revision-Date: 2018-07-11 12:58+0600\n"
+"Last-Translator: Amos Lee <470266798@qq.com>\n"
+"Language-Team: Amos Lee <tareq@wedevs.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;gettext_noop;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: core/Notifications/Emails/Complete_Task_Notification.php:42
+msgid "[%s] %s Task mark as %s in %s"
+msgstr "[%s] %s 任务标记为%s 在里面%s"
+
+#: core/Notifications/Emails/New_Comment_Notification.php:53
+#: core/Notifications/Emails/Update_Comment_Notification.php:52
+#: views/emails/html/new-message.php:39 views/emails/mention.php:13
+msgid "Message"
+msgstr "消息"
+
+#: core/Notifications/Emails/New_Comment_Notification.php:58
+#: core/Notifications/Emails/Update_Comment_Notification.php:55
+#: views/emails/mention.php:20
+msgid "Task List"
+msgstr "任务列表"
+
+#: core/Notifications/Emails/New_Comment_Notification.php:63
+#: core/Notifications/Emails/Update_Comment_Notification.php:58
+#: views/assets/js/pm.js:18541
+#: views/assets/src/components/project-overview/directive.js:10
+#: views/emails/mention.php:25
+msgid "Task"
+msgstr "任务"
+
+#: core/Notifications/Emails/New_Comment_Notification.php:68
+#, fuzzy
+#| msgid "Files"
+msgid "File"
+msgstr "文件"
+
+#: core/Notifications/Emails/New_Comment_Notification.php:81
+msgid "[%s][%s] New Comment on: %s"
+msgstr "[%s][%s]新评论：%s"
+
+#: core/Notifications/Emails/New_Message_Notification.php:47
+msgid "[%s][%s] New Message: %s"
+msgstr "[%s][%s]新消息：%s"
+
+#: core/Notifications/Emails/New_Project_Notification.php:24
+msgid "[%s] New Project Invitation: %s"
+msgstr "[%s]新项目邀请：%s"
+
+#: core/Notifications/Emails/New_Task_Notification.php:41
+msgid "[%s][%s] New Task Assigned: %s"
+msgstr "[%s][%s]分配的新任务：%s"
+
+#: core/Notifications/Emails/Update_Comment_Notification.php:49
+msgid "[%s][%s] Update Comment on: %s"
+msgstr "[%s][%s]更新%s"
+
+#: core/Notifications/Emails/Update_Project_Notification.php:24
+#, fuzzy
+#| msgid "Update Project"
+msgid "[%s] Updated Project: %s"
+msgstr "更新项目"
+
+#: core/Notifications/Emails/Update_Task_Notification.php:40
+msgid "[%s][%s] Update Task Assigned: %s"
+msgstr "[%s][%s]更新分配的任务：%s"
+
+#: core/Permissions/Access_Project.php:22
+#: core/Permissions/Create_Discuss.php:17
+#: core/Permissions/Create_Milestone.php:16 core/Permissions/Create_Task.php:16
+#: core/Permissions/Create_Task_List.php:17
+#: core/Permissions/Edit_Comment.php:27 core/Permissions/Edit_Discuss.php:30
+#: core/Permissions/Edit_File.php:29 core/Permissions/Edit_Milestone.php:30
+#: core/Permissions/Edit_Task.php:32 core/Permissions/Edit_Task_List.php:30
+#: core/Permissions/Project_Manage_Capability.php:28
+msgid "You have no permission."
+msgstr "你没有权限。"
+
+#: core/Permissions/Complete_Task.php:36
+msgid "You have no permission to change task status."
+msgstr "您没有更改任务状态的权限。"
+
+#: core/Permissions/Create_File.php:16
+msgid "You have no permission to create message."
+msgstr "您没有创建邮件的权限。"
+
+#: core/Permissions/Project_Craete_Capability.php:17
+msgid "You have no permission to create project."
+msgstr "您没有创建项目的权限。"
+
+#: core/Upgrades/Upgrade.php:136
+msgid "<strong>WP Project Manager Data Update Required</strong>WP Project Manager Data Update Required – Pleaseclick the button below to update to the latest version."
+msgstr "<strong>需要WP项目经理数据更新</strong>需要WP项目经理数据更新 –请单击下面的按钮更新到最新版本。"
+
+#: core/Upgrades/Upgrade.php:139
+msgid "Run the Update"
+msgstr "运行更新"
+
+#: core/Upgrades/Upgrade.php:140
+#, fuzzy
+#| msgid "Load More..."
+msgid "Read More"
+msgstr "加载更多..."
+
+#: core/Upgrades/Upgrade.php:148
+msgid "It is strongly recommended that you backup your database before proceeding.Are you sure you wish to run the updater now?"
+msgstr "强烈建议在继续之前备份数据库。是否确实要立即运行更新程序？"
+
+#: core/WP/Enqueue_Scripts.php:65
+msgid "Allowed Files"
+msgstr "接受的文件"
+
+#: core/WP/Frontend.php:140
+msgid "Every %d Minutes PM schedule"
+msgstr "每%d 分钟PM计划"
+
+#: core/WP/Frontend.php:167
+msgid "<h2>WP Project Manager Pro required version 2.0 or above.</span></h2>"
+msgstr "<h2>WP Project Manager Pro需要2.0或更高版本。</span></h2>"
+
+#: core/WP/Frontend.php:168
+msgid "<p>To migrate version 2.0, Please read mmigration docs </p>"
+msgstr "<p>要迁移2.0版，请阅读mmigration文档</p>"
+
+#: core/WP/Frontend.php:177
+msgid "Read Docs"
+msgstr "阅读文档"
+
+#: core/WP/Frontend.php:284
+msgid "Get Pro"
+msgstr "专业版"
+
+#: core/WP/Frontend.php:287 core/WP/Menu.php:36
+msgid "Settings"
+msgstr "设置"
+
+#: core/WP/Frontend.php:288
+msgid "Documentation"
+msgstr "文档"
+
+#: core/WP/Menu.php:16 views/assets/src/components/project-lists/header.vue:7
+msgid "Project Manager"
+msgstr "项目"
+
+#: core/WP/Menu.php:18
+msgid "Projects"
+msgstr "项目"
+
+#: core/WP/Menu.php:20 views/assets/src/components/categories/categories.vue:3
+msgid "Categories"
+msgstr "類別"
+
+#: core/WP/Menu.php:22
+msgid "My Tasks"
+msgstr "我的任务"
+
+#: core/WP/Menu.php:23
+msgid "Calendar"
+msgstr "日历"
+
+#: core/WP/Menu.php:26
+msgid "Reports"
+msgstr "报告"
+
+#: core/WP/Menu.php:27
+msgid "Progress"
+msgstr "进展"
+
+#: db/seeds/RoleTableSeeder.php:23
+msgid "Manager"
+msgstr "经理"
+
+#: db/seeds/RoleTableSeeder.php:25
+msgid "Manager is a person who manages the project."
+msgstr "经理是管理项目的人。"
+
+#: db/seeds/RoleTableSeeder.php:33
+msgid "Co-Worker"
+msgstr "同事"
+
+#: db/seeds/RoleTableSeeder.php:35
+msgid "Co-worker is person who works under a project."
+msgstr "同事是在一个项目下工作的人。"
+
+#: src/Category/Validators/Create_Category.php:10
+#: src/Category/Validators/Update_Category.php:10
+msgid "Category title is required."
+msgstr "类别标题是必需的。"
+
+#: src/Category/Validators/Update_Category.php:11
+msgid "Category id is required."
+msgstr "类别id是必需的。"
+
+#: src/Category/Validators/Update_Category.php:12
+msgid "Category id must be greater than zero"
+msgstr "类别id必须大于零"
+
+#: src/Comment/Validators/Create_Comment.php:10
+#: src/Comment/Validators/Update_Comment.php:10
+msgid "Comment title is required."
+msgstr "Comment title is required."
+
+#: src/Comment/Validators/Create_Comment.php:11
+#: src/Discussion_Board/Validators/Create_Discussion_Board.php:11
+#: src/Milestone/Validators/Create_Milestone.php:11
+#: src/Project/Validators/Update_Project.php:11
+#: src/Task/Validators/Create_Task.php:11
+#: src/Task_List/Validators/Create_Task_List.php:11
+msgid "Project id is required."
+msgstr "项目id是必需的。"
+
+#: src/Comment/Validators/Update_Comment.php:11
+msgid "Comment id is required."
+msgstr "注释id是必需的。"
+
+#: src/Comment/Validators/Update_Comment.php:12
+msgid "Comment id must be greater than zero"
+msgstr "注释id必须大于零"
+
+#: src/Discussion_Board/Validators/Create_Discussion_Board.php:10
+msgid "Discussion title is required."
+msgstr "讨论标题是必需的。"
+
+#: src/Discussion_Board/Validators/Update_Discussion_Board.php:10
+msgid "Discuss title is required."
+msgstr "讨论标题是必需的。"
+
+#: src/Discussion_Board/Validators/Update_Discussion_Board.php:11
+msgid "Discuss id is required."
+msgstr "讨论id是必需的。"
+
+#: src/Discussion_Board/Validators/Update_Discussion_Board.php:12
+msgid "Discuss id must be greater than zero"
+msgstr "讨论id必须大于零"
+
+#: src/File/Controllers/File_Controller.php:97
+msgid "file not found"
+msgstr "找不到文件"
+
+#: src/Milestone/Controllers/Milestone_Controller.php:58
+msgid "this is mishu"
+msgstr "我是米舒"
+
+#: src/Milestone/Validators/Create_Milestone.php:10
+#: src/Milestone/Validators/Update_Milestone.php:10
+msgid "Milestone title is required."
+msgstr "需要里程碑标题。"
+
+#: src/Milestone/Validators/Update_Milestone.php:11
+msgid "Milestone id is required."
+msgstr "需要里程碑id。"
+
+#: src/Milestone/Validators/Update_Milestone.php:12
+msgid "Milestone id must be greater than zero"
+msgstr "里程碑id必须大于零"
+
+#: src/Project/Validators/Create_Project.php:10
+#: src/Project/Validators/Update_Project.php:10
+msgid "Project title is required."
+msgstr "项目名称是必需的。"
+
+#: src/Project/Validators/Update_Project.php:12
+msgid "Project id must be greater than zero"
+msgstr "项目id必须大于零"
+
+#: src/Role/Validators/Create_Role.php:10
+#: src/Role/Validators/Update_Role.php:10
+msgid "Role title is required."
+msgstr "角色标题是必需的。"
+
+#: src/Role/Validators/Update_Role.php:11
+msgid "Role id is required."
+msgstr "角色id是必需的。"
+
+#: src/Role/Validators/Update_Role.php:12
+msgid "Role id must be greater than zero"
+msgstr "角色id必须大于零"
+
+#: src/Task/Validators/Create_Task.php:10
+#: src/Task/Validators/Update_Task.php:10
+msgid "Task title is required."
+msgstr "任务标题是必需的。"
+
+#: src/Task/Validators/Update_Task.php:11
+msgid "Task id is required."
+msgstr "任务id是必需的。"
+
+#: src/Task/Validators/Update_Task.php:12
+msgid "Task id must be greater than zero"
+msgstr "任务id必须大于零"
+
+#: src/Task_List/Validators/Create_Task_List.php:10
+#: src/Task_List/Validators/Update_Task_List.php:10
+msgid "Task list title is required."
+msgstr "任务列表标题是必需的。"
+
+#: src/Task_List/Validators/Update_Task_List.php:11
+#, fuzzy
+#| msgid "Tasklist detail"
+msgid "Task list id is required."
+msgstr "任务详情"
+
+#: src/Task_List/Validators/Update_Task_List.php:12
+msgid "Task list id must be greater than zero"
+msgstr "任务列表id必须大于零"
+
+#: texts/activities.php:6
+msgid "%1$s has created a project titled as %2$s"
+msgstr "%1$s 已创建名为的项目%2$s"
+
+#: texts/activities.php:10
+msgid "%1$s has updated project title from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新项目标题\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:14
+msgid "%1$s has updated %2$s project description."
+msgstr "%1$s 已更新%2$s 项目说明。"
+
+#: texts/activities.php:18
+msgid "%1$s has updated project status from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新项目状态\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:22
+msgid "%1$s has updated project budget from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新项目预算\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:26
+msgid "%1$s has updated project pay rate from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新项目付款率\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:30
+msgid "%1$s has updated project est completion date from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新项目est完成日期\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:34
+msgid "%1$s has updated project color code from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新项目颜色代码\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:40
+msgid "%1$s has created a discussion board titled as %2$s."
+msgstr "%1$s 已经创建了一个名为%2$s."
+
+#: texts/activities.php:44
+msgid "%1$s has updated the title of a discussion board from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新讨论板的标题\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:48
+msgid "%1$s has updated the description of a discussion board, %2$s."
+msgstr "%1$s 更新了讨论板的说明，%2$s."
+
+#: texts/activities.php:52
+msgid "%1$s has updated the order of a discussion board, %2$s."
+msgstr "%1$s 更新了讨论板的顺序，%2$s."
+
+#: texts/activities.php:58
+msgid "%1$s has created a task list titled as %2$s."
+msgstr "%1$s 已创建名为的任务列表%2$s."
+
+#: texts/activities.php:62
+msgid "%1$s has updated the title of a task list from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新任务列表的标题\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:66
+msgid "%1$s has updated the description of a task list, %2$s."
+msgstr "%1$s 已更新任务列表的说明，%2$s."
+
+#: texts/activities.php:70
+msgid "%1$s has updated the order of a task list, %2$s."
+msgstr "%1$s 已更新任务列表的顺序，%2$s."
+
+#: texts/activities.php:76
+msgid "%1$s has created a milestone, %2$s."
+msgstr "%1$s 创造了一个里程碑，%2$s."
+
+#: texts/activities.php:80
+msgid "%1$s has updated the title of a milestone from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新里程碑的标题\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:84
+msgid "%1$s has updated the description of a milestone, %2$s."
+msgstr "%1$s 更新了里程碑的描述，%2$s."
+
+#: texts/activities.php:88
+msgid "%1$s has updated the order of a milestone, %2$s."
+msgstr "%1$s 更新了里程碑的顺序，%2$s."
+
+#: texts/activities.php:94
+msgid "%1$s has created a task, %2$s."
+msgstr "%1$s 已经创建了一个任务，%2$s."
+
+#: texts/activities.php:98
+msgid "%1$s has updated the title of a task from \"%2$s\" to \"%3$s\"."
+msgstr "%1$s 已从更新任务的标题\"%2$s\"到\"%3$s\"."
+
+#: texts/activities.php:102
+msgid "%1$s has updated the description of a task, %2$s."
+msgstr "%1$s 已更新任务的说明，%2$s."
+
+#: texts/activities.php:106
+msgid "%1$s has updated the estimation of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 更新了任务的估计，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:110
+msgid "%1$s has updated the start date of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 已更新任务的开始日期，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:114
+msgid "%1$s has updated the due date of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 已更新任务的到期日期，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:118
+msgid "%1$s has updated the complexity of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 已经更新了任务的复杂性，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:122
+msgid "%1$s has updated the priority of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 更新了任务的优先级，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:126
+msgid "%1$s has updated the payable status of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 已更新任务的应付状态，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:130
+msgid "%1$s has updated the recurrency of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 更新了任务的重复性，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:134
+msgid "%1$s has updated the status of a task, %2$s, from %3$s to %4$s."
+msgstr "%1$s 已更新任务的状态，%2$s, 从%3$s 到%4$s."
+
+#: texts/activities.php:140
+#, fuzzy
+#| msgid "%s commented on a %s"
+msgid "%1$s has commented on a task, %2$s."
+msgstr "%s评论了%s"
+
+#: texts/activities.php:144
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a comment on a task, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:148
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has replied a comment on a task, %2$s"
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:152
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a reply comment on a task, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:158
+#, fuzzy
+#| msgid "%s commented on a %s"
+msgid "%1$s has commented on a task list, %2$s."
+msgstr "%s评论了%s"
+
+#: texts/activities.php:162
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a comment on a task list, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:166
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has replied a comment on a task list, %2$s"
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:170
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a reply comment on a task list, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:176
+msgid "%1$s has commented on a discussion board, %2$s."
+msgstr "%1$s 在讨论板上发表了评论，%2$s."
+
+#: texts/activities.php:180
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a comment on a discussion board, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:184
+msgid "%1$s has replied a comment on a discussion board, %2$s"
+msgstr "%1$s 已经在讨论板上回复了评论，%2$s"
+
+#: texts/activities.php:188
+msgid "%1$s has updated a reply comment on a discussion board, %2$s."
+msgstr "%1$s 更新了讨论板上的回复评论，%2$s."
+
+#: texts/activities.php:194
+#, fuzzy
+#| msgid "%s commented on a %s"
+msgid "%1$s has commented on a milestone, %2$s."
+msgstr "%s评论了%s"
+
+#: texts/activities.php:198
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a comment on a milestone, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:202
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has replied a comment on a milestone, %2$s"
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:206
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a reply comment on a milestone, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:212
+#, fuzzy
+#| msgid "%s commented on a %s"
+msgid "%1$s has commented on the project, %2$s."
+msgstr "%s评论了%s"
+
+#: texts/activities.php:216
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a comment on the project, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:220
+msgid "%1$s has replied a comment on the project, %2$s"
+msgstr "%1$s 已回复对该项目的评论，%2$s"
+
+#: texts/activities.php:224
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a reply comment on the project, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:230
+#, fuzzy
+#| msgid "%s commented on a %s"
+msgid "%1$s has commented on a file, %2$s."
+msgstr "%s评论了%s"
+
+#: texts/activities.php:234
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a comment on a file, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:238
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has replied a comment on a file, %2$s"
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:242
+#, fuzzy
+#| msgid "%s updated comment on a %s"
+msgid "%1$s has updated a reply comment on a file, %2$s."
+msgstr "%s更新了%s的评论"
+
+#: texts/activities.php:246
+msgid "%1$s has duplicated project from , %2$s."
+msgstr "%1$s 从中复制了项目，%2$s."
+
+#: texts/resource_types.php:5
+#, fuzzy
+#| msgid "Project"
+msgid "project"
+msgstr "项目"
+
+#: texts/resource_types.php:8
+msgid "discussion board"
+msgstr "讨论板"
+
+#: texts/resource_types.php:11
+#, fuzzy
+#| msgid "Task List"
+msgid "task list"
+msgstr "任务列表"
+
+#: texts/resource_types.php:14
+msgid "task"
+msgstr "任务"
+
+#: texts/resource_types.php:17
+#, fuzzy
+#| msgid "Milestone"
+msgid "milestone"
+msgstr "里程碑"
+
+#: texts/resource_types.php:20
+#, fuzzy
+msgid "comment"
+msgstr "1条评论"
+
+#: texts/resource_types.php:23
+msgid "file"
+msgstr "文件"
+
+#: texts/success_messages.php:6
+msgid "A project has been created successfully."
+msgstr "已成功创建项目。"
+
+#: texts/success_messages.php:9
+msgid "A project has been updated successfully."
+msgstr "已成功更新项目。"
+
+#: texts/success_messages.php:12
+msgid "A project has been deleted successfully."
+msgstr "已成功删除项目。"
+
+#: texts/success_messages.php:16
+msgid "A category has been created successfully."
+msgstr "已成功创建类别。"
+
+#: texts/success_messages.php:19
+msgid "A category has been updated successfully."
+msgstr "已成功更新类别。"
+
+#: texts/success_messages.php:22
+msgid "A category has been deleted successfully."
+msgstr "已成功删除类别。"
+
+#: texts/success_messages.php:25
+msgid "All the selected categories has been deleted successfully."
+msgstr "已成功删除所有选定的类别。"
+
+#: texts/success_messages.php:29
+msgid "Successfully commented."
+msgstr "评论成功。"
+
+#: texts/success_messages.php:32
+msgid "A comment has been updated successfully."
+msgstr "已成功更新评论。"
+
+#: texts/success_messages.php:35
+msgid "A comment has been deleted successfully."
+msgstr "已成功删除评论。"
+
+#: texts/success_messages.php:39
+msgid "A new discussion has been created successfully."
+msgstr "已成功创建新讨论。"
+
+#: texts/success_messages.php:42
+msgid "A discussion has been updated successfully."
+msgstr "已成功更新讨论。"
+
+#: texts/success_messages.php:45
+msgid "A discussion has been deleted successfully."
+msgstr "已成功删除讨论。"
+
+#: texts/success_messages.php:49
+msgid "A new milestone has been created successfully."
+msgstr "已成功创建新里程碑。"
+
+#: texts/success_messages.php:52
+msgid "A milestone has been updated successfully."
+msgstr "已成功更新里程碑。"
+
+#: texts/success_messages.php:55
+msgid "A milestone has been deleted successfully."
+msgstr "已成功删除里程碑。"
+
+#: texts/success_messages.php:59
+msgid "A new task list has been created successfully."
+msgstr "已成功创建新任务列表。"
+
+#: texts/success_messages.php:62
+msgid "Task list has been updated successfully."
+msgstr "任务列表已成功更新。"
+
+#: texts/success_messages.php:65
+msgid "Task list has been deleted successfully."
+msgstr "任务列表已成功删除。"
+
+#: texts/success_messages.php:69
+msgid "A new task has been created successfully."
+msgstr "已成功创建新任务。"
+
+#: texts/success_messages.php:72
+msgid "A Task has been updated successfully."
+msgstr "任务已成功更新。"
+
+#: texts/success_messages.php:75
+msgid "The task has been deleted successfully."
+msgstr "任务已成功删除。"
+
+#: texts/success_messages.php:78
+msgid "Settings has been changed successfully."
+msgstr "设置已成功更改。"
+
+#: texts/success_messages.php:81
+#, fuzzy
+#| msgid "No comments found"
+msgid "No element found"
+msgstr "没有找到评论"
+
+#: texts/success_messages.php:84
+#, fuzzy
+#| msgid "No Project Found"
+msgid "No Project found"
+msgstr "没有项目"
+
+#: texts/success_messages.php:87
+msgid "Task marked as done"
+msgstr "任务标记为已完成"
+
+#: texts/success_messages.php:90
+msgid "Task reopened"
+msgstr "任务重新打开"
+
+#: vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php:425
+msgid "Every %d Minutes"
+msgstr "每%d 分钟"
+
+#: views/assets/js/library.js:887 views/assets/js/library.js:1099
+#: views/assets/js/library.js:4869 views/assets/js/pm.js:887
+#: views/assets/js/pm.js:1099 views/assets/js/pm.js:5443
+#: views/assets/js/pm.js:5954 views/assets/js/pm.js:9713
+#: views/assets/js/pm.js:14773
+#: views/assets/src/components/categories/categories.vue:255
+#: views/assets/src/components/project-discussions/mixin.js:507
+#: views/assets/src/components/project-task-lists/list-comments.vue:111
+#: views/assets/src/components/project-task-lists/mixin.js:382
+#: views/assets/src/components/project-task-lists/mixin.js:602
+#: views/assets/src/components/project-task-lists/task-comments.vue:131
+#, fuzzy
+#| msgid "Are you sure?"
+msgid "Are you sure!"
+msgstr "确定？"
+
+#: views/assets/js/library.js:3158 views/assets/js/pm.js:3732
+#: views/assets/src/helpers/mixin/mixin.js:703
+#: views/assets/vendor/mixin/mixin.js:636
+msgid "Are you sure to delete this project?"
+msgstr "确定删除此项目？"
+
+#: views/assets/js/library.js:3841 views/assets/js/pm.js:4415
+#: views/assets/src/components/common/text-editor.vue:37
+msgid "Write a comment..."
+msgstr "写评论。。。"
+
+#: views/assets/js/library.js:4169 views/assets/js/pm.js:4743
+#: views/assets/src/components/project-task-lists/single-task.vue:295
+msgid "Update Description"
+msgstr "更新"
+
+#: views/assets/js/library.js:4632 views/assets/js/pm.js:5206
+#: views/assets/js/pm.js:10728 views/assets/js/pm.js:14513
+#: views/assets/src/components/project-discussions/comment-form.vue:39
+#: views/assets/src/components/project-task-lists/list-comment-form.vue:48
+#: views/assets/src/components/project-task-lists/task-comment-form.vue:64
+msgid "Add New Comment"
+msgstr "添加新评论"
+
+#: views/assets/js/library.js:4633 views/assets/js/pm.js:5207
+#: views/assets/js/pm.js:10729 views/assets/js/pm.js:14514
+#: views/assets/src/components/project-discussions/comment-form.vue:40
+#: views/assets/src/components/project-task-lists/list-comment-form.vue:49
+#: views/assets/src/components/project-task-lists/task-comment-form.vue:65
+#: views/emails/html/update-comment.php:12
+msgid "Update Comment"
+msgstr "更新"
+
+#: views/assets/js/library.js:5620 views/assets/js/pm.js:7465
+msgid "textarea"
+msgstr "文本"
+
+#: views/assets/js/library.js:5661 views/assets/js/pm.js:7506
+#: views/assets/js/pm.js:25191
+msgid "form"
+msgstr "形式"
+
+#: views/assets/js/library.js:5753 views/assets/js/library.js:5843
+#: views/assets/js/library.js:6109 views/assets/js/library.js:6887
+#: views/assets/js/library.js:6964 views/assets/js/library.js:7110
+#: views/assets/js/library.js:10361 views/assets/js/library.js:10395
+#: views/assets/js/library.js:10440 views/assets/js/library.js:10498
+#: views/assets/js/library.js:10699 views/assets/js/library.js:10757
+#: views/assets/js/pm.js:7598 views/assets/js/pm.js:7688
+#: views/assets/js/pm.js:7954 views/assets/js/pm.js:8732
+#: views/assets/js/pm.js:8809 views/assets/js/pm.js:8955
+#: views/assets/js/pm.js:23547 views/assets/js/pm.js:23616
+#: views/assets/js/pm.js:23915 views/assets/js/pm.js:24205
+#: views/assets/js/pm.js:24239 views/assets/js/pm.js:24446
+#: views/assets/js/pm.js:24569 views/assets/js/pm.js:24729
+#: views/assets/js/pm.js:24763 views/assets/js/pm.js:25132
+#: views/assets/js/pm.js:25346 views/assets/js/pm.js:25862
+#: views/assets/js/pm.js:25896 views/assets/js/pm.js:25987
+#: views/assets/js/pm.js:26537 views/assets/js/pm.js:26640
+#: views/assets/js/pm.js:26731 views/assets/js/pm.js:26795
+#: views/assets/js/pm.js:26886 views/assets/js/pm.js:27157
+#: views/assets/js/pm.js:27200 views/assets/js/pm.js:27551
+#: views/assets/js/pm.js:27638 views/assets/js/pm.js:27777
+#: views/assets/js/pm.js:28558 views/assets/js/pm.js:28592
+#: views/assets/js/pm.js:28674 views/assets/js/pm.js:29193
+#: views/assets/js/pm.js:29234 views/assets/js/pm.js:29675
+#: views/assets/js/pm.js:29935 views/assets/js/pm.js:29969
+#: views/assets/js/pm.js:30251 views/assets/js/pm.js:30296
+#: views/assets/js/pm.js:30476 views/assets/js/pm.js:30954
+#: views/assets/js/pm.js:31165 views/assets/js/pm.js:31200
+#: views/assets/js/pm.js:31386 views/assets/js/pm.js:31477
+#: views/assets/js/pm.js:31586 views/assets/js/pm.js:31651
+#: views/assets/js/pm.js:31962 views/assets/js/pm.js:32460
+#: views/assets/js/pm.js:32830 views/assets/js/pm.js:33075
+#: views/assets/js/pm.js:33109 views/assets/js/pm.js:33209
+#: views/assets/js/pm.js:33376 views/assets/js/pm.js:33446
+#: views/assets/js/pm.js:33803 views/assets/js/pm.js:33846
+#: views/assets/js/pm.js:34055 views/assets/js/pm.js:34228
+#: views/assets/js/pm.js:34332 views/assets/js/pm.js:34372
+msgid "div"
+msgstr "分区"
+
+#: views/assets/js/library.js:6909 views/assets/js/pm.js:8754
+#: views/assets/js/pm.js:23525
+msgid "span"
+msgstr "跨度"
+
+#: views/assets/js/library.js:6937 views/assets/js/pm.js:8782
+#: views/assets/js/pm.js:24537 views/assets/js/pm.js:26571
+#: views/assets/js/pm.js:28649 views/assets/js/pm.js:32805
+#: views/assets/js/pm.js:33414
+msgid "input"
+msgstr "输入"
+
+#: views/assets/js/pm.js:2326
+#: views/assets/src/components/project-milestones/mixin.js:316
+#, fuzzy
+#| msgid "Are you sure to delete this message?"
+msgid "Are you sure! Want to delete this milestones?"
+msgstr "确定要删除此消息？"
+
+#: views/assets/js/pm.js:5999
+#: views/assets/src/components/project-discussions/mixin.js:554
+#, fuzzy
+#| msgid "Are you sure to delete this project?"
+msgid "Are you sure to delete this comment?"
+msgstr "确定删除此项目？"
+
+#: views/assets/js/pm.js:9674
+#: views/assets/src/components/categories/categories.vue:23
+#: views/assets/src/components/categories/categories.vue:212
+#, fuzzy
+#| msgid "Add New Message"
+msgid "Add New Category"
+msgstr "添加新消息"
+
+#: views/assets/js/pm.js:9793
+#: views/assets/src/components/categories/edit-category-form.vue:42
+#, fuzzy
+#| msgid "Update Message"
+msgid "Update Category"
+msgstr "更新消息"
+
+#: views/assets/js/pm.js:10288 views/assets/js/pm.js:12746
+#: views/assets/src/components/common/header.vue:81
+#: views/assets/src/components/project-lists/project-summary.vue:165
+#, fuzzy
+#| msgid "Project Activity"
+msgid "Project Actions"
+msgstr "项目动态"
+
+#: views/assets/js/pm.js:10314
+#: views/assets/src/components/common/header.vue:110
+msgid "Overview"
+msgstr "概述"
+
+#: views/assets/js/pm.js:10323
+#: views/assets/src/components/common/header.vue:121
+msgid "Activities"
+msgstr "活动"
+
+#: views/assets/js/pm.js:10332
+#: views/assets/src/components/common/header.vue:132
+#: views/assets/src/components/project-discussions/discussions.vue:20
+#: views/assets/src/components/project-lists/project-summary.vue:32
+#: views/assets/src/components/project-milestones/completed-milestones.vue:32
+#: views/assets/src/components/project-milestones/late-milestones.vue:39
+#: views/assets/src/components/project-milestones/upcoming-milestones.vue:42
+#: views/assets/src/components/project-overview/overview.vue:31
+msgid "Discussions"
+msgstr "讨论"
+
+#: views/assets/js/pm.js:10341
+#: views/assets/src/components/common/header.vue:143
+#: views/assets/src/components/project-lists/project-summary.vue:48
+#: views/assets/src/components/project-milestones/completed-milestones.vue:23
+#: views/assets/src/components/project-milestones/late-milestones.vue:30
+#: views/assets/src/components/project-milestones/upcoming-milestones.vue:32
+#: views/assets/src/components/project-overview/overview.vue:46
+#: views/assets/src/components/project-task-lists/default-list-page.vue:4
+msgid "Task Lists"
+msgstr "任务列表"
+
+#: views/assets/js/pm.js:10350
+#: views/assets/src/components/common/header.vue:154
+#: views/assets/src/components/project-lists/project-summary.vue:78
+#: views/assets/src/components/project-milestones/milestones.vue:19
+#: views/assets/src/components/project-overview/overview.vue:97
+msgid "Milestones"
+msgstr "里程碑"
+
+#: views/assets/js/pm.js:10359
+#: views/assets/src/components/common/header.vue:165
+#: views/assets/src/components/project-lists/project-summary.vue:93
+#: views/assets/src/components/project-overview/overview.vue:82
+msgid "Files"
+msgstr "文件"
+
+#: views/assets/js/pm.js:10975
+#: views/assets/src/components/categories/categories.vue:104
+#: views/assets/src/components/common/header.vue:10
+#: views/assets/src/components/project-discussions/discussions.vue:158
+#: views/assets/src/components/project-task-lists/incompleted-tasks.vue:71
+msgid "Edit"
+msgstr "编辑"
+
+#: views/assets/js/pm.js:10976
+#: views/assets/src/components/project-discussions/discussions.vue:159
+msgid "Delete this message"
+msgstr "删除此消息"
+
+#: views/assets/js/pm.js:10977
+#: views/assets/src/components/project-discussions/discussions.vue:160
+msgid "Make it private"
+msgstr "保密"
+
+#: views/assets/js/pm.js:11351
+#: views/assets/src/components/project-discussions/new-discuss-form.vue:55
+msgid "Enter message title"
+msgstr "输入消息标题"
+
+#: views/assets/js/pm.js:11352
+#: views/assets/src/components/project-discussions/new-discuss-form.vue:56
+msgid "Add Message"
+msgstr "添加消息"
+
+#: views/assets/js/pm.js:11353
+#: views/assets/src/components/project-discussions/new-discuss-form.vue:57
+msgid "Update Message"
+msgstr "更新消息"
+
+#: views/assets/js/pm.js:12089
+#: views/assets/src/components/project-lists/header.vue:69
+msgid "Start a new project"
+msgstr "开始一个新项目"
+
+#: views/assets/js/pm.js:12190
+#: views/assets/src/components/project-lists/project-create-form.vue:87
+msgid "Name of the project"
+msgstr "项目名称"
+
+#: views/assets/js/pm.js:12191
+#: views/assets/src/components/project-lists/project-create-form.vue:88
+msgid "Some details about the project (optional)"
+msgstr "项目详情（可选）"
+
+#: views/assets/js/pm.js:12192
+#: views/assets/src/components/project-lists/project-create-form.vue:89
+msgid "Type 3 or more characters to search users..."
+msgstr "键入3个或更多字符以搜索用户。。。"
+
+#: views/assets/js/pm.js:12193 views/assets/js/pm.js:18016
+#: views/assets/src/components/project-lists/directive.js:75
+#: views/assets/src/components/project-lists/project-create-form.vue:90
+msgid "Create a new user"
+msgstr "创建新用户"
+
+#: views/assets/js/pm.js:12194
+#: views/assets/src/components/project-lists/project-create-form.vue:91
+msgid "Add New Project"
+msgstr "添加新项目"
+
+#: views/assets/js/pm.js:12195
+#: views/assets/src/components/project-lists/project-create-form.vue:92
+#: views/emails/html/update-project.php:9
+msgid "Update Project"
+msgstr "更新项目"
+
+#: views/assets/js/pm.js:12536
+#: views/assets/src/components/project-lists/project-new-user-form.vue:43
+msgid "Create User"
+msgstr "创建用户"
+
+#: views/assets/js/pm.js:12853
+#: views/assets/src/components/project-lists/project-view.vue:17
+msgid "List View"
+msgstr "列表视图"
+
+#: views/assets/js/pm.js:12854
+#: views/assets/src/components/project-lists/project-view.vue:18
+msgid "Grid View"
+msgstr "网格视图"
+
+#: views/assets/js/pm.js:12946
+#: views/assets/src/components/project-milestones/action-milestones.vue:33
+msgid "Edit Milestone"
+msgstr "编辑里程碑"
+
+#: views/assets/js/pm.js:12947
+#: views/assets/src/components/project-milestones/action-milestones.vue:34
+msgid "Delete milestone"
+msgstr "删除里程碑"
+
+#: views/assets/js/pm.js:12948
+#: views/assets/src/components/project-milestones/action-milestones.vue:35
+msgid "Mark as incomplete"
+msgstr "标记为不完整"
+
+#: views/assets/js/pm.js:12949
+#: views/assets/src/components/project-milestones/action-milestones.vue:36
+msgid "Mark as complete"
+msgstr "标记为已完成"
+
+#: views/assets/js/pm.js:13571 views/assets/js/pm.js:15563
+#: views/assets/src/components/project-milestones/new-milestone-form.vue:44
+#: views/assets/src/components/project-task-lists/new-task-form.vue:112
+msgid "Due Date"
+msgstr "两次约会"
+
+#: views/assets/js/pm.js:13572
+#: views/assets/src/components/project-milestones/new-milestone-form.vue:45
+msgid "Milestone name"
+msgstr "里程碑名称"
+
+#: views/assets/js/pm.js:13573
+#: views/assets/src/components/project-milestones/milestones.vue:24
+#: views/assets/src/components/project-milestones/milestones.vue:52
+#: views/assets/src/components/project-milestones/new-milestone-form.vue:46
+msgid "Add Milestone"
+msgstr "添加里程碑"
+
+#: views/assets/js/pm.js:13574
+#: views/assets/src/components/project-milestones/new-milestone-form.vue:47
+msgid "Update Milestone"
+msgstr "更新里程碑"
+
+#: views/assets/js/pm.js:15560
+#: views/assets/src/components/project-task-lists/new-task-form.vue:109
+msgid "Add a new task"
+msgstr "添加新任务"
+
+#: views/assets/js/pm.js:15561
+#: views/assets/src/components/project-task-lists/new-task-form.vue:110
+msgid "Add extra details about this task (optional)"
+msgstr "添加有关此任务的额外详细信息（可选）"
+
+#: views/assets/js/pm.js:15562
+#: views/assets/src/components/project-task-lists/new-task-form.vue:111
+msgid "Start Date"
+msgstr "开始日期"
+
+#: views/assets/js/pm.js:15564
+#: views/assets/src/components/project-task-lists/new-task-form.vue:113
+msgid "Select User"
+msgstr "选择用户"
+
+#: views/assets/js/pm.js:15565
+#: views/assets/src/components/project-task-lists/new-task-form.vue:114
+msgid "Update Task"
+msgstr "更新任务"
+
+#: views/assets/js/pm.js:15566
+#: views/assets/src/components/project-task-lists/new-task-btn.vue:3
+#: views/assets/src/components/project-task-lists/new-task-form.vue:115
+msgid "Add Task"
+msgstr "添加任务"
+
+#: views/assets/js/pm.js:15567
+#: views/assets/src/components/project-task-lists/new-task-form.vue:116
+msgid "Estimated hour to complete the task"
+msgstr "估计完成任务的小时数"
+
+#: views/assets/js/pm.js:15928
+#: views/assets/src/components/project-task-lists/new-task-list-form.vue:71
+msgid "Task list name"
+msgstr "任务列表名称"
+
+#: views/assets/js/pm.js:15929
+#: views/assets/src/components/project-task-lists/new-task-list-form.vue:72
+msgid "Task list details"
+msgstr "任务列表详细信息"
+
+#: views/assets/js/pm.js:15930
+#: views/assets/src/components/project-task-lists/new-task-list-form.vue:73
+msgid "Update List"
+msgstr "更新列表"
+
+#: views/assets/js/pm.js:15931
+#: views/assets/src/components/project-discussions/discussions.vue:16
+#: views/assets/src/components/project-task-lists/new-task-list-form.vue:74
+msgid "Add List"
+msgstr "添加列表"
+
+#: views/assets/js/pm.js:16368
+#: views/assets/src/components/project-task-lists/single-list.vue:121
+#, fuzzy
+#| msgid "Delete milestone"
+msgid "Delete List"
+msgstr "删除里程碑"
+
+#: views/assets/js/pm.js:16699 views/assets/js/pm.js:16847
+#: views/assets/src/components/settings/email.vue:82
+#: views/assets/src/components/settings/general.vue:116
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: views/assets/js/pm.js:18015
+#: views/assets/src/components/project-lists/directive.js:74
+msgid "No users found."
+msgstr "找不到用户。"
+
+#: views/assets/js/pm.js:18540
+#: views/assets/src/components/project-overview/directive.js:9
+msgid "Activity"
+msgstr "动态"
+
+#: views/assets/js/pm.js:23425 views/assets/js/pm.js:23847
+#: views/assets/js/pm.js:31861
+msgid "ul"
+msgstr "保险商实验室"
+
+#: views/assets/js/pm.js:26597
+msgid ""
+msgstr ""
+
+#: views/assets/js/pm.js:30932 views/assets/js/pm.js:31629
+msgid "router-view"
+msgstr "路由器视图"
+
+#: views/assets/js/pm.js:33541
+msgid "svg"
+msgstr "svg格式"
+
+#: views/assets/js/pm.js:33711
+msgid "vue-content-loading"
+msgstr "vue内容加载"
+
+#: views/assets/src/components/categories/categories.vue:27
+#: views/assets/src/components/categories/categories.vue:74
+#: views/assets/src/components/categories/categories.vue:130
+#: views/assets/src/components/categories/edit-category-form.vue:8
+msgid "Name"
+msgstr "姓名"
+
+#: views/assets/src/components/categories/categories.vue:33
+#: views/assets/src/components/categories/categories.vue:79
+#: views/assets/src/components/categories/categories.vue:136
+#: views/assets/src/components/categories/edit-category-form.vue:14
+msgid "Description"
+msgstr "说明"
+
+#: views/assets/src/components/categories/categories.vue:54
+msgid "Select bulk action"
+msgstr "选择批量操作"
+
+#: views/assets/src/components/categories/categories.vue:56
+#: views/assets/src/components/categories/categories.vue:155
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: views/assets/src/components/categories/categories.vue:57
+#: views/assets/src/components/categories/categories.vue:156
+#: views/assets/src/components/common/header.vue:29
+#: views/assets/src/components/project-lists/project-create-form.vue:36
+#: views/assets/src/components/project-lists/project-summary.vue:134
+#: views/assets/src/components/project-task-lists/incompleted-tasks.vue:74
+msgid "Delete"
+msgstr "删除"
+
+#: views/assets/src/components/categories/categories.vue:69
+#: views/assets/src/components/common/notify-user.vue:7
+msgid "Select all"
+msgstr "选择所有"
+
+#: views/assets/src/components/categories/edit-category-form.vue:5
+msgid "Quick Edit"
+msgstr "快速编辑"
+
+#: views/assets/src/components/categories/edit-category-form.vue:23
+#: views/assets/src/components/project-discussions/new-discuss-form.vue:32
+#: views/assets/src/components/project-lists/project-create-form.vue:57
+#: views/assets/src/components/project-milestones/new-milestone-form.vue:18
+#: views/assets/src/components/project-task-lists/new-task-form.vue:51
+#: views/assets/src/components/project-task-lists/new-task-list-form.vue:27
+msgid "Cancel"
+msgstr "取消"
+
+#: views/assets/src/components/common/color-picker.vue:9
+#, fuzzy
+#| msgid "Select all"
+msgid "Select Color"
+msgstr "选择所有"
+
+#: views/assets/src/components/common/color-picker.vue:25
+msgid "Clear"
+msgstr "清空"
+
+#: views/assets/src/components/common/color-picker.vue:31
+msgid "Close"
+msgstr "关闭"
+
+#: views/assets/src/components/common/file-uploader.vue:10
+msgid "Delete File"
+msgstr "删除文件"
+
+#: views/assets/src/components/common/file-uploader.vue:16
+msgid "To attach"
+msgstr "附加"
+
+#: views/assets/src/components/common/file-uploader.vue:17
+msgid "select files"
+msgstr "选择文件"
+
+#: views/assets/src/components/common/file-uploader.vue:18
+msgid "from your computer."
+msgstr "从你的电脑。"
+
+#: views/assets/src/components/common/header.vue:17
+#: views/assets/src/components/project-lists/project-header-menu.vue:13
+#: views/assets/src/components/project-task-lists/lists.vue:92
+msgid "Completed"
+msgstr "已完成"
+
+#: views/assets/src/components/common/header.vue:18
+#: views/assets/src/components/project-task-lists/lists.vue:102
+msgid "Incomplete"
+msgstr "不完整"
+
+#: views/assets/src/components/common/header.vue:36
+#: views/assets/src/components/project-lists/project-summary.vue:141
+msgid "Complete"
+msgstr "完成"
+
+#: views/assets/src/components/common/header.vue:39
+#: views/assets/src/components/project-lists/project-summary.vue:144
+msgid "Restore"
+msgstr "恢复"
+
+#: views/assets/src/components/common/notify-user.vue:4
+msgid "Notify users"
+msgstr "通知用户"
+
+#: views/assets/src/components/project-activities/activities.vue:46
+#, fuzzy
+#| msgid "Load More..."
+msgid "Load More ..."
+msgstr "加载更多..."
+
+#: views/assets/src/components/project-activities/activities.vue:48
+msgid "No activity fount"
+msgstr "无活动喷泉"
+
+#: views/assets/src/components/project-discussions/discussions.vue:23
+msgid "Use our built in discussion panel to create an open discussion, a groupdiscussion or a private conversation. Note that the Admin can alwaysmoderate these discussions."
+msgstr "使用我们内置的讨论面板创建开放式讨论、小组讨论或私人对话请注意，管理员可以随时减少这些讨论。"
+
+#: views/assets/src/components/project-discussions/discussions.vue:27
+#: views/assets/src/components/project-discussions/discussions.vue:54
+msgid "Add New Discussion"
+msgstr "添加新讨论"
+
+#: views/assets/src/components/project-discussions/discussions.vue:32
+#: views/assets/src/components/project-discussions/discussions.vue:59
+msgid "Create a new message"
+msgstr "创建新消息"
+
+#: views/assets/src/components/project-discussions/discussions.vue:38
+msgid "When to use Discussions?"
+msgstr "何时使用讨论？"
+
+#: views/assets/src/components/project-discussions/discussions.vue:41
+msgid "To discuss a work matter privately."
+msgstr "私下讨论工作问题。"
+
+#: views/assets/src/components/project-discussions/discussions.vue:42
+msgid "To exchange files privately."
+msgstr "私下交换文件。"
+
+#: views/assets/src/components/project-discussions/discussions.vue:43
+msgid "To discuss in a group."
+msgstr "分组讨论。"
+
+#: views/assets/src/components/project-discussions/discussions.vue:44
+msgid "To create an open discussion visible to all."
+msgstr "创建对所有人都可见的开放式讨论。"
+
+#: views/assets/src/components/project-discussions/discussions.vue:68
+msgid "Discussion List"
+msgstr "讨论列表"
+
+#: views/assets/src/components/project-discussions/discussions.vue:84
+#: views/assets/src/components/project-discussions/individual-discussions.vue:32
+#: views/assets/src/components/project-task-lists/list-comments.vue:15
+#: views/assets/src/components/project-task-lists/task-comments.vue:15
+#, fuzzy
+#| msgid "Body"
+msgid "By"
+msgstr "内容"
+
+#: views/assets/src/components/project-discussions/discussions.vue:88
+#: views/assets/src/components/project-discussions/individual-discussions.vue:35
+#: views/assets/src/components/project-discussions/individual-discussions.vue:77
+#: views/assets/src/components/project-task-lists/list-comments.vue:22
+#: views/assets/src/components/project-task-lists/task-comments.vue:21
+msgid "on"
+msgstr "在"
+
+#: views/assets/src/components/project-discussions/discussions.vue:110
+#: views/assets/src/components/project-discussions/individual-discussions.vue:61
+#: views/assets/src/components/project-lists/project-summary.vue:104
+#: views/assets/src/components/project-overview/overview.vue:68
+#: views/assets/src/components/project-task-lists/lists.vue:111
+#: views/assets/src/components/project-task-lists/single-task.vue:174
+msgid "Comments"
+msgstr "评论"
+
+#: views/assets/src/components/project-discussions/new-discuss-form.vue:16
+#: views/assets/src/components/project-task-lists/new-task-list-form.vue:16
+msgid "- Milestone -"
+msgstr "-里程碑-"
+
+#: views/assets/src/components/project-files/files.vue:36
+msgid "Attached to"
+msgstr "附加到"
+
+#: views/assets/src/components/project-files/files.vue:38
+msgid "by"
+msgstr "通过"
+
+#: views/assets/src/components/project-files/files.vue:40
+msgid "admin"
+msgstr "管理员"
+
+#: views/assets/src/components/project-files/files.vue:62
+#, fuzzy
+#| msgid "No users found"
+msgid "No result found!"
+msgstr "没有找到用户"
+
+#: views/assets/src/components/project-lists/project-create-form.vue:13
+#: views/assets/src/components/project-lists/project-filter-by-category.vue:6
+msgid "- Project Category -"
+msgstr "-项目类别-"
+
+#: views/assets/src/components/project-lists/project-create-form.vue:50
+msgid "Notify Co-Workers"
+msgstr "通知同事"
+
+#: views/assets/src/components/project-lists/project-header-menu.vue:6
+msgid "Active"
+msgstr "活跃的"
+
+#: views/assets/src/components/project-lists/project-header-menu.vue:20
+msgid "All"
+msgstr "全部"
+
+#: views/assets/src/components/project-lists/project-new-project-btn.vue:3
+#: views/emails/html/new-project.php:10
+msgid "New Project"
+msgstr "新项目"
+
+#: views/assets/src/components/project-lists/project-new-user-form.vue:7
+msgid "Username"
+msgstr "用户名"
+
+#: views/assets/src/components/project-lists/project-new-user-form.vue:12
+msgid "First Name"
+msgstr "名字"
+
+#: views/assets/src/components/project-lists/project-new-user-form.vue:17
+msgid "Last Name"
+msgstr "姓"
+
+#: views/assets/src/components/project-lists/project-new-user-form.vue:22
+msgid "Email"
+msgstr "电子邮件"
+
+#: views/assets/src/components/project-lists/project-summary.vue:4
+msgid "No projects found."
+msgstr "找不到项目。"
+
+#: views/assets/src/components/project-lists/project-summary.vue:63
+#: views/assets/src/components/project-overview/overview.vue:57
+msgid "Tasks"
+msgstr "任务"
+
+#: views/assets/src/components/project-milestones/completed-milestones.vue:3
+msgid "Completed Milestones"
+msgstr "已完成里程碑"
+
+#: views/assets/src/components/project-milestones/completed-milestones.vue:43
+msgid "Completed on:"
+msgstr "完成日期："
+
+#: views/assets/src/components/project-milestones/late-milestones.vue:3
+msgid "Late Milestones"
+msgstr "最新里程碑"
+
+#: views/assets/src/components/project-milestones/milestones.vue:21
+msgid "Create a lifecycle of your projects using milestones. Time mark thedifferent stages of your project with multiple milestones and also it willhelp the assigned people to aim for a date to complete the project accordingto those steps."
+msgstr "使用里程碑创建项目的生命周期时间用多个里程碑标记项目的不同阶段，同时它也将帮助指定的人员根据这些步骤确定完成项目的日期。"
+
+#: views/assets/src/components/project-milestones/milestones.vue:37
+msgid "When to use Milestones?"
+msgstr "何时使用里程碑？"
+
+#: views/assets/src/components/project-milestones/milestones.vue:40
+msgid "To set a target date for the project overall."
+msgstr "为整个项目设置目标日期。"
+
+#: views/assets/src/components/project-milestones/milestones.vue:41
+msgid "To divide a project into several development-time phases."
+msgstr "把一个项目分成几个开发阶段。"
+
+#: views/assets/src/components/project-milestones/milestones.vue:42
+msgid "To coordinate projects and assigned persons timely."
+msgstr "及时协调项目和指定人员。"
+
+#: views/assets/src/components/project-milestones/upcoming-milestones.vue:3
+msgid "Upcoming Milestones"
+msgstr "即将到来"
+
+#: views/assets/src/components/project-milestones/upcoming-milestones.vue:10
+#, fuzzy
+#| msgid "left"
+msgid "left -"
+msgstr "到期"
+
+#: views/assets/src/components/project-overview/overview.vue:107
+msgid "Last 30 days"
+msgstr "最近三十天"
+
+#: views/assets/src/components/project-overview/overview.vue:116
+msgid "Users"
+msgstr "用户"
+
+#: views/assets/src/components/project-task-lists/default-list-page.vue:6
+msgid "You can list all your Tasks in a single discussion using a Task list. Usethese lists to divide a project into several sectors, assign co-workers andcheck progress."
+msgstr "可以使用任务列表在单个讨论中列出所有任务使用这些列表可以将项目分成几个部分，指派同事并检查进度。"
+
+#: views/assets/src/components/project-task-lists/default-list-page.vue:14
+msgid "When to use Task Lists?"
+msgstr "何时使用任务列表？"
+
+#: views/assets/src/components/project-task-lists/default-list-page.vue:17
+msgid "To partition a project internals."
+msgstr "对项目内部进行分区。"
+
+#: views/assets/src/components/project-task-lists/default-list-page.vue:18
+msgid "To mark milestone points."
+msgstr "以标记里程碑点。"
+
+#: views/assets/src/components/project-task-lists/default-list-page.vue:19
+msgid "To assign people to tasks."
+msgstr "将人员分配给任务。"
+
+#: views/assets/src/components/project-task-lists/list-comments.vue:4
+msgid "Discuss this task list"
+msgstr "讨论此任务列表"
+
+#: views/assets/src/components/project-task-lists/list-tasks.vue:9
+#: views/assets/src/components/project-task-lists/single-list-tasks.vue:12
+#: views/assets/src/components/project-task-lists/single-list-tasks.vue:29
+msgid "No tasks found."
+msgstr "找不到任务。"
+
+#: views/assets/src/components/project-task-lists/lists.vue:77
+#: views/assets/src/components/project-task-lists/single-list-tasks.vue:14
+#: views/assets/src/components/project-task-lists/single-list-tasks.vue:32
+msgid "More Tasks"
+msgstr "更多任务"
+
+#: views/assets/src/components/project-task-lists/new-task-list-btn.vue:7
+msgid "New Task List"
+msgstr "新任务列表"
+
+#: views/assets/src/components/project-task-lists/single-list-tasks.vue:5
+msgid "Incomplete Tasks"
+msgstr "未完成的任务"
+
+#: views/assets/src/components/project-task-lists/single-list-tasks.vue:21
+msgid "Completed Tasks"
+msgstr "已完成的任务"
+
+#: views/assets/src/components/project-task-lists/single-list.vue:29
+msgid "Back to Task Lists"
+msgstr "返回任务列表"
+
+#: views/assets/src/components/project-task-lists/single-task.vue:203
+msgid "Shift+Enter for line break"
+msgstr "Shift+Enter换行"
+
+#: views/assets/src/components/project-task-lists/task-comments.vue:4
+msgid "Discuss this task"
+msgstr "讨论这个任务"
+
+#: views/assets/src/components/settings/email.vue:7
+#: views/assets/src/components/settings/header.vue:9
+msgid "E-Mail Settings"
+msgstr "邮件设置"
+
+#: views/assets/src/components/settings/email.vue:12
+msgid "From Email"
+msgstr "从电子邮件"
+
+#: views/assets/src/components/settings/email.vue:20
+msgid "Links in the Email"
+msgstr "电子邮件中的链接"
+
+#: views/assets/src/components/settings/email.vue:25
+msgid "Link to Backend"
+msgstr "链接到后端"
+
+#: views/assets/src/components/settings/email.vue:28
+msgid "Select where do you want to take the user. Notification emails contain links."
+msgstr "选择要将用户带到的位置通知电子邮件包含链接。"
+
+#: views/assets/src/components/settings/email.vue:35
+msgid "E-Mail Type"
+msgstr "邮件类型"
+
+#: views/assets/src/components/settings/email.vue:39
+msgid "HTML Mail"
+msgstr "HTML邮件"
+
+#: views/assets/src/components/settings/email.vue:40
+msgid "Plain Text"
+msgstr "纯文本"
+
+#: views/assets/src/components/settings/email.vue:46
+msgid "Send email via Bcc"
+msgstr "通过密件抄送发送电子邮件"
+
+#: views/assets/src/components/settings/email.vue:52
+msgid "Enable Bcc"
+msgstr "可启动的"
+
+#: views/assets/src/components/settings/general.vue:7
+#: views/assets/src/components/settings/header.vue:5
+msgid "General Settings"
+msgstr "常规设置"
+
+#: views/assets/src/components/settings/general.vue:12
+msgid "File Upload Limit"
+msgstr "文件上传限制"
+
+#: views/assets/src/components/settings/general.vue:16
+msgid "File Size in Megabytes. e.g: 2"
+msgstr "文件大小和兆字节。例：2"
+
+#: views/assets/src/components/settings/general.vue:21
+msgid "Projects Per Page"
+msgstr "每页项目数"
+
+#: views/assets/src/components/settings/general.vue:25
+msgid "-1 for unlimited"
+msgstr "-1代表无限"
+
+#: views/assets/src/components/settings/general.vue:31
+msgid "Task Lists Per Page"
+msgstr "每页任务列表"
+
+#: views/assets/src/components/settings/general.vue:39
+msgid "Incomplete Tasks Per Page"
+msgstr "每页未完成的任务"
+
+#: views/assets/src/components/settings/general.vue:47
+msgid "Completed Tasks Per Page"
+msgstr "每页已完成的任务"
+
+#: views/assets/src/components/settings/general.vue:55
+msgid "Project Managing Capability"
+msgstr "项目管理能力"
+
+#: views/assets/src/components/settings/general.vue:65
+#: views/assets/src/components/settings/general.vue:81
+msgid "Select the user roles who can see and manage all projects."
+msgstr "选择可以查看和管理所有项目的用户角色。"
+
+#: views/assets/src/components/settings/general.vue:71
+msgid "Project Creation Capability"
+msgstr "项目创建能力"
+
+#: views/emails/html/complete-task.php:12
+msgid "Task status has been changed"
+msgstr "任务状态已更改"
+
+#: views/emails/html/complete-task.php:25
+msgid "Changed by"
+msgstr "更改者"
+
+#: views/emails/html/complete-task.php:31 views/emails/html/new-task.php:24
+#: views/emails/html/update-task.php:24
+#, fuzzy
+#| msgid "Due date"
+msgid "due date"
+msgstr "到期时间"
+
+#: views/emails/html/complete-task.php:36 views/emails/html/new-task.php:29
+#: views/emails/html/update-task.php:29
+msgid "start at"
+msgstr "从开始"
+
+#: views/emails/html/complete-task.php:54 views/emails/html/new-task.php:46
+#: views/emails/html/update-task.php:46
+msgid "View Task"
+msgstr "查看任务"
+
+#: views/emails/html/new-comment.php:12
+msgid "New Comment"
+msgstr "新评论"
+
+#: views/emails/html/new-comment.php:19 views/emails/html/update-comment.php:19
+msgid "Commented By"
+msgstr "页：1"
+
+#: views/emails/html/new-comment.php:23 views/emails/html/update-comment.php:23
+msgid "On"
+msgstr "打开（放）"
+
+#: views/emails/html/new-comment.php:38 views/emails/html/update-comment.php:38
+#: views/emails/mention.php:47
+msgid "View Comment"
+msgstr "怎么样"
+
+#: views/emails/html/new-message.php:12
+msgid "New Message"
+msgstr "新消息"
+
+#: views/emails/html/new-message.php:19
+msgid "Message Created By"
+msgstr "消息创建者"
+
+#: views/emails/html/new-message.php:28
+msgid "Title"
+msgstr "标题"
+
+#: views/emails/html/new-message.php:49
+msgid "View Message"
+msgstr "查看消息"
+
+#: views/emails/html/new-project.php:16
+msgid "Project Created By"
+msgstr "项目创建人"
+
+#: views/emails/html/new-project.php:23 views/emails/html/update-project.php:22
+#: views/emails/mention.php:37
+msgid "Hello"
+msgstr "你好"
+
+#: views/emails/html/new-project.php:25
+msgid "You are assigned to a new project \"%s\" by %s."
+msgstr "您被分配到一个新项目\"%s\"由%s."
+
+#: views/emails/html/new-project.php:26 views/emails/html/update-project.php:25
+msgid "You can see the project by going here:"
+msgstr "你可以在这里看到这个项目："
+
+#: views/emails/html/new-project.php:34 views/emails/html/update-project.php:35
+msgid "View Project"
+msgstr "查看项目"
+
+#: views/emails/html/new-task.php:12
+msgid "New task has been assigned to you"
+msgstr "新任务已分配给您"
+
+#: views/emails/html/new-task.php:18
+msgid "Created By"
+msgstr "创建人"
+
+#: views/emails/html/update-project.php:15
+msgid "Project Updated By"
+msgstr "项目更新者"
+
+#: views/emails/html/update-project.php:24
+msgid "You are assigned to a project \"%s\" by %s."
+msgstr "你被分配到一个项目\"%s\"通过%s."
+
+#: views/emails/html/update-task.php:12
+msgid "Update task has been assigned to you"
+msgstr "更新任务已分配给您"
+
+#: views/emails/html/update-task.php:18
+#, fuzzy
+#| msgid "Update List"
+msgid "Updated By"
+msgstr "更新列表"
+
+#: views/emails/mention.php:39
+msgid "You are mentioned in a comment by"
+msgstr "你在评论中被提到"
+
+#: views/emails/mention.php:41
+msgid "Please click the link bellow to view the comment."
+msgstr "请点击下面的链接查看评论。"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Project Manager"
+msgstr "风力发电项目经理"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wedevs.com/wp-project-manager-pro/"
+msgstr "https://wedevs.com/wp-project-manager-pro/"
+
+#. Description of the plugin/theme
+msgid "WordPress Project Management plugin. Manage your projects and tasks, getthings done."
+msgstr "WordPress项目管理插件管理你的项目和任务，完成任务。"
+
+#. Author of the plugin/theme
+msgid "weDevs"
+msgstr "星期三。"
+
+#. Author URI of the plugin/theme
+msgid "https://wedevs.com"
+msgstr "http://www.google.com/sea….tin round+rock+texas网站"
+
